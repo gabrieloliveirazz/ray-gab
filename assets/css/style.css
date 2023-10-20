@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
 
 :root {
-    --verde: #00EB61;
-    --roxo: #8328EB;
+    --cor01: #632ADC;
+    --cor02: #2ADB43; 
 
-    --font-padrao: 'Open Sans', sans-serif;
+    --font: 'Open Sans', sans-serif;;
 }
 
 * {
@@ -15,54 +15,53 @@
 }
 
 body {
-    background-color: #00EB61;
-    font-family: var(--font-padrao);
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor01));
+    font-family: var(--font);
+    
 }
 
-header {
-    margin-bottom: 50px;
+section {
+    background-color: white;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 400px;
+    min-height: 300px;
+    max-height: 2000px;
     padding: 15px;
-}
-
-header > h1 {
-    color: var(--roxo);
+    margin: auto;    
+    margin-top: 50px;
     text-align: center;
 }
 
-main {
-    background-color: white;
-    width: 60vw;
-    height: 60vh;
-    margin: auto;
-    border-radius: 10px;
+section > h1, h2 {
+    font-weight: 600;
+    color: var(--cor01);
+}
+
+section > p {
+    text-align: justify;
 }
 
 img {
-    margin: auto;
-    width: 250px;
-    height: 350px;
+    height: 50%;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    
 }
 
 footer {
-    background-color: #005323;
-    color: white;   
+    color: white;
     text-align: center;
-    margin-top: 50px;
 }
 
 a {
-    color: white;
     text-decoration: none;
-}
-
-strong {
-    font-weight: bolder;
+    color: white;
 }
 
 .gab {
-    color: var(--verde);
-}
-
-.ray {
-    color: var(--roxo);
+    color: var(--cor02);
 }
