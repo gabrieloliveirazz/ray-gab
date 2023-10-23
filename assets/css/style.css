@@ -27,7 +27,7 @@ section {
     max-width: 400px;
     min-height: 300px;
     max-height: 2000px;
-    padding: 15px;
+    padding: 30px;
     margin: auto;    
     margin-top: 50px;
     text-align: center;
@@ -45,6 +45,10 @@ section > p {
 img {
     height: 50%;
     width: 50%;
+}
+
+.img-lado {
+    width: 46%;
 }
 
 .container {
