@@ -9,7 +9,7 @@
         min-width: 300px;
         max-width: 900px;
         min-height: 300px;
-        max-height: 2000px;
+        max-height: 3000px;
         padding: 30px;
         margin: auto;    
         margin-top: 50px;
@@ -29,15 +29,19 @@
 
     img {
         height: 50vh;
+        width: 20vw;
     }
     
     .img-lado {
-        width: 46%;
+        width: 20vw;
     }
     
     .container {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
+    .mural {
+        width: 46%
+    }
 }
