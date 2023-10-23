@@ -2,11 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
 :root {
     --cor01: #632ADC;
     --cor02: #2ADB43; 
 
-    --font: 'Open Sans', sans-serif;;
+    --font-titulo: 'Open Sans', sans-serif;;
+    --font-p: 'Inter', sans-serif;
 }
 
 * {
@@ -16,8 +19,6 @@
 
 body {
     background-image: linear-gradient(to bottom, var(--cor02), var(--cor01));
-    font-family: var(--font);
-    
 }
 
 section {
@@ -26,7 +27,7 @@ section {
     min-width: 300px;
     max-width: 400px;
     min-height: 300px;
-    max-height: 2000px;
+    max-height: 4000px;
     padding: 30px;
     margin: auto;    
     margin-top: 50px;
@@ -34,12 +35,14 @@ section {
 }
 
 section > h1, h2 {
+    font-family: var(--font-titulo);
     font-weight: 600;
     color: var(--cor01);
     margin: 10px;
 }
 
 section > p {
+    font-family: var(--font-p);
     text-align: justify;
     margin: 10px;
 }
@@ -58,7 +61,12 @@ img {
     justify-content: space-around;
 }
 
+.mural {
+    width: 46%
+}
+
 footer {
+    font-family: var(--font-p);
     color: white;
     text-align: center;
 }
