@@ -5,12 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 :root {
-    --cor01: #632ADC;
+    --cor01: #A300FF ; /*#632ADC*/
     --cor02: #2ADB43; 
 
     --font-titulo: 'Open Sans', sans-serif;;
     --font-p: 'Inter', sans-serif;
-}
+} 
 
 * {
     margin: 0;
