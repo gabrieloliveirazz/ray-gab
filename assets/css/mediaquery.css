@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* tela para computadores */
+
+@media screen and (min-width: 1080px){
+    section {
+        background-color: white;
+        border-radius: 10px;
+        min-width: 300px;
+        max-width: 800px;
+        min-height: 300px;
+        max-height: 2000px;
+        padding: 30px;
+        margin: auto;    
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    section > h1, h2 {
+        font-weight: 600;
+        color: var(--cor01);
+        margin: 10px;
+    }
+    
+    section > p {
+        text-align: justify;
+        margin: 10px;
+    }
+
+    img {
+        height: 50vh;
+    }
+    
+    .img-lado {
+        width: 46%;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
