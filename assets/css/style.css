@@ -36,10 +36,12 @@ section {
 section > h1, h2 {
     font-weight: 600;
     color: var(--cor01);
+    margin: 10px;
 }
 
 section > p {
     text-align: justify;
+    margin: 10px;
 }
 
 img {
