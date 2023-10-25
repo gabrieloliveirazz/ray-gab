@@ -9,7 +9,7 @@
         min-width: 300px;
         max-width: 900px;
         min-height: 300px;
-        max-height: 3000px;
+        max-height: 10000px;
         padding: 30px;
         margin: auto;    
         margin-top: 50px;
@@ -28,12 +28,13 @@
     }
 
     img {
-        height: 50vh;
+        height: 60vh;
         width: 20vw;
     }
     
     .img-lado {
         width: 20vw;
+        height: 60vh;
     }
     
     .container {
