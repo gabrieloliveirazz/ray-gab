@@ -24,11 +24,11 @@ body {
 section {
     background-color: white;
     border-radius: 10px;
-    min-width: 300px;
-    max-width: 400px;
+    min-width: 100px;
+    max-width: 300px;
     min-height: 300px;
-    max-height: 4000px;
-    padding: 30px;
+    max-height: 100000px;
+    padding: 10px;
     margin: auto;    
     margin-top: 50px;
     text-align: center;
@@ -48,8 +48,8 @@ section > p {
 }
 
 img {
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 80%;
 }
 
 .img-lado {
@@ -62,7 +62,7 @@ img {
 }
 
 .mural {
-    width: 46%
+    width: 90%;
 }
 
 footer {
