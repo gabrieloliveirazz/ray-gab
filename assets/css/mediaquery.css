@@ -42,4 +42,8 @@
         justify-content: space-evenly;
     }
 
+    .mural {
+        width: 50vw;
+        height: 90vh;
+    }
 }
