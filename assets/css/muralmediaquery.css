@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* tela para computadores */
+
+@media screen and (min-width: 1080px){
+    body {
+        background-color: white;
+        border-radius: 10px;
+        min-width: 300px;
+        max-width: 900px;
+        min-height: 300px;
+        max-height: 10000px;
+        padding: 30px;
+        margin: auto;    
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 600;
+        color: var(--cor01);
+        margin: 10px;
+    }
+    
+    p {
+        text-align: justify;
+        margin: 10px;
+    }
+
+    img {
+        background-color: white;
+        height: 300px;
+        width: 300px;
+    }
+    
+    .img-lado {
+        width: 20vw;
+        height: 60vh;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .mural {
+        width: 50vw;
+        height: 90vh;
+    }
+}
